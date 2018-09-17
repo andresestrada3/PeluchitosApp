@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fAgregar"
+            android:title="@string/Agregar" />
+        <item
+            android:id="@+id/fBuscar"
+            android:title="@string/Buscar" />
+        <item
+            android:id="@+id/fEliminar"
+            android:title="@string/Eliminar" />
+        <item
+            android:id="@+id/fVerInventario"
+            android:title="@string/VerInventario" />
+    </group>
+
+
+
+</menu>
